@@ -8,10 +8,6 @@
   <title>Aaron Avery</title>
 
   <style>
-    * {
-      border: thin red solid;
-    }
-    
     body {
       padding-top: 40px;
       padding-bottom: 40px;
@@ -25,6 +21,11 @@
       height: 128px;
       object-fit: cover;
       border-radius: 128px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
       display: flex;
       justify-content: center;
     }
@@ -45,30 +46,35 @@
     .social-icons a {
       color: #3da9fc;
       text-decoration: none;
-      display: flex;
-      justify-content: space-around;
+    }
+
+    .social-icons img {
+      width: 24px;
+      height: 24px;
     }
 
     .link a {
       color: #fffffe;
       text-decoration: none;
-      display: flex;
-      text-align: center;
       flex-grow: 1;
+      text-align: center;
     }
 
     .link {
       background-color: #90b4ce;
       display: flex;
       align-items: center;
+      padding: 5px;
+    }
 
-     }
-      .items {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 640px;
-      }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 520px;
+      flex-grow: 1;
+      text-align: center;
+    }
 
   </style>
 </head>
@@ -83,12 +89,16 @@
     </div>
 
     <div class="social-icons">
-      <a href="https://www.linkedin.com/in/aaron--avery/" target="_blank">LinkedIn</a>
 
-    </div>
+      <a href="https://www.linkedin.com/in/aaron--avery/" target="_blank">
+        <img
+          src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
+          alt="LinkedIn">
+      </a>
 
-    <div class="social-icons">
-      <a href="https://open.spotify.com/user/aa-ronn" target="_blank">Spotify</a>
+      <a href="https://open.spotify.com/user/aa-ronn" target="_blank">
+        <img src="https://pbs.twimg.com/profile_images/558556141605511168/2JDJX8SQ_400x400.png" alt="Spotify">
+      </a>
 
     </div>
 
